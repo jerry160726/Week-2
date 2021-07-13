@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET ABOVE */
+
+.pb-2{
+	padding-bottom: 16px;
+}
+
+.pb-3{
+	padding-bottom: 24px;
+}
+
+.mb-3{
+	margin-bottom: 24px;
+}
+
+.mb-3-5{
+	margin-bottom: 28px;
+}
+
+.mb-4{
+	margin-bottom: 32px;
+}
+
+.mb-5{
+	margin-bottom: 40px;
+}
+
+.mb-6{
+	margin-bottom: 48px;
+}
+
+.pt-7{
+	padding-top: 56px;
+}
+
+.pb-7{
+	padding-bottom: 56px;
+}
+
+.mb-7{
+	margin-bottom: 56px;
+}
+
+.pr-3{
+	padding-right: 24px;
+}
+
+.container{
+	width: 1920px;
+}
+
+body{
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.title{
+	font-size: 64px;
+	line-height: 84px;
+}
+
+.lh-42{
+	line-height: 42px;
+}
+
+.font-detail{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.block{
+	display: block;
+}
+
+.flex{
+	display: flex;
+}
+
+.no-wrap{
+	white-space: nowrap;
+}
+
+.header{
+	color: white;
+	width: 100%;
+	height: 958px;
+	background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) center center;
+	background-size: cover;
+}
+
+.header{
+	justify-content: center;
+	align-items: center;
+}
+
+.header .name{
+	font-size: 80px;
+	line-height: 106px;
+}
+
+.header .contact-info li img{
+	padding-right: 16px;
+}
+
+/* .profile{
+	background: grey;
+} */
+
+.profile-detail{
+	/* border: 1px solid red; */
+	width: 384px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile-line {
+	width: 384px;
+	height: 1px;
+	background: #000;
+	margin: 0 auto 28px;
+  }
+
+.job-info{
+	/* border: 1px solid blue;	 */
+	list-style: disc;
+	list-style-position: inside;
+	color: #891818;	
+}
+
+.job-info span{
+	color: black;
+}
+
+.my-brand{
+	width: 1920px;
+	background: black;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 160px;
+}
+
+.brand-upper h2{
+	margin-bottom: 12px;
+}
+
+.brand-upper .detail{
+	margin-bottom: 68px;
+}
+
+.brand-mid{
+	justify-content: center;
+}
+
+.brand-lower{
+	justify-content: center;
+}
+
+.other-works{
+	/* background: yellow; */
+	width: 1920px;
+	text-align: center;
+	padding-bottom: 144px;
+}
+
+.other-works .products{
+	flex-wrap: wrap;
+}
+
+.other-works-upper{
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+}
+
+.other-works-mid{
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+}
+
+.other-works-lower{
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+}
+
+.other-works img{
+	margin-bottom: 16px;
+}
+
+.other-works ul li{
+	font-size: 20px;
+	line-height: 42px;
+}
+
+.footer{
+	background: #000;
+	color: #fff;
+	padding: 64px 0;
+	text-align: center;
+}
